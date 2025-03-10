@@ -2,11 +2,13 @@ import React from 'react';
 
 
 
-export default function TestimonialCard() {
+function TestimonialCard({name,review}) {
   return (
     <div>
         <h1>{name}</h1>
-        {/* <p>{testimonial}</p> */}
+        <p>{review}</p>
     </div>
   )
 }
+
+export default TestimonialCard;
